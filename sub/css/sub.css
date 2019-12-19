@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+#wrap{
+    width: 100%;
+}
+
+/*subMain*/
+.subMain{
+    text-align: center;
+	padding: 2%;
+}
+.subMain img{
+	padding-top: 80px;
+}
+.subMain h3{
+	letter-spacing: 5px;
+	padding-top: 10px;
+}
+.subMainImage{
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+.subMainImage>img{
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+}
+
+.subTit{
+    text-align: center;
+	padding-top: 100px;
+	padding-bottom: 250px;
+}
+.subTit h2{
+	font-size: 35px;
+}
+.subTit p{
+	letter-spacing: 10px;
+	text-align: center;
+	padding-left: 0.5%;
+}
+.subTit p span{
+	padding: 0 1.5%;
+}
+
+/*subContainer*/
+.subContainer{}
+
+.con01Wrap{}
+.con01{
+    display: inline-block;
+	padding-bottom: 300px;
+}
+.con01 div{
+    float: left;	
+}
+.con01Image{}
+.con01Image img{
+    max-width: 100%;
+    display: block;
+}
+.con01Text{
+	padding-left: 60px;
+	padding-top: 100px;
+
+}
+.con02Text{
+	padding-left: 0;
+	padding-right: 90px;
+	padding-top: 70px;
+}
+.con03Text{
+	padding-top: 110px;
+}
+.con01Text>h2{
+	font-size: 35px;
+}
+.con01Text p{
+	font-size: 20px;
+	line-height: 35px;
+}
+.con01Text p span{
+	font-size: 30px;
+}
+.textSubTit{
+	padding-bottom: 30px;
+	padding-top: 5px;
+}
+.con04{
+    font-size: 0;
+}
